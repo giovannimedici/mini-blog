@@ -28,6 +28,23 @@
   padding: 0.4em 0.6em;
 }
 
+.links_list li button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  color: #000;
+  transition: 0.4s;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.links_list li button:hover {
+  cursor: pointer;
+}
+
+
+
 .active {
     background-color: #000;
     color: #fff;
